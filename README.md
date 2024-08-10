@@ -20,6 +20,8 @@ curl -s -X POST -H "Content-Type: application/json" --data-binary @request.json 
 "https://speech.googleapis.com/v1/speech:recognize?key=${API_KEY}" > result.json
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
+# Now check the progress till task 3
+----------------------------------------------------------------------------------------------------------------------------------------------------
 
 rm -f request.json
 
